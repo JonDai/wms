@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sys-model:war exploded">
+    <output-path>$PROJECT_DIR$/sys-model/target/sys-model</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sys-model" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/sys-model/target/sys-model/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sys-model/web/Web" />
+    </root>
+  </artifact>
+</component>
